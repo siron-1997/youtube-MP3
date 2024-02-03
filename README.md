@@ -35,6 +35,7 @@
     <li>次のコマンドでpython環境を構築(構築済みでv3.11が入っている場合は、スキップ) <code>choco install -y python3 --version=3.11</code></li>
     <li><code>python</code>コマンドが有効ではない場合、システム環境変数から<code>Path</code>を編集</li>
     <li><code>pip install -r requirements.txt</code></li>を実行し、依存ライブラリーをインストール
+    <li><code>transfer</code>の<code>libs</code>内にある<code>define.py</code>を開き、<code>SOUND_FOLDER_PATH</code>変数の値「<user-name>」を自身のユーザー名に修正して保存
     <li><code>windows.build.bat</code> を実行</li>
 </ol>
 
