@@ -2,6 +2,8 @@
 
 コマンドラインインターフェースによる、YouTube 動画を MP3 形式へ変換する簡易的ツール。
 
+<img src="./docs/nyan_cat.webp">
+
 ## 開発環境
 
  * python v3.11

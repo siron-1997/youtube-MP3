@@ -25,7 +25,7 @@ def movie_to_music():
                     "preferredquality": "192" # 音質設定
                 }
             ],
-            "outtmpl": "SOUND_FOLDER_PATH" + "/" + "%(title)s.%(ext)s" # 保存先
+            "outtmpl": f"{define.SOUND_FOLDER_PATH}" + "/" + "%(title)s.%(ext)s" # 保存先
         }
 
         with YoutubeDL(ydl_opts) as ydl:
