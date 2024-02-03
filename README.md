@@ -11,7 +11,7 @@
 
  * Windows 10/11
 
-### 環境構築手順
+## 環境構築手順
 
 <ol>
     <li>
@@ -39,13 +39,14 @@
     <li><code>windows.build.bat</code> を実行</li>
 </ol>
 
-### 利用手順
+## 利用手順
 
-「PowerShell」または「コマンドプロンプト」を開き、youtubeコマンドの引数に動画のurlを設定。
-
-※複数のリンクを設定した一括返還も可能
+「PowerShell」または「コマンドプロンプト」を開き、youtubeコマンドを入力し引数には動画URLを指定。
 
 <code>youtube "https://youtube.be/another_example"</code>
+
+また、引数に複数のリンクを指定することで一括ダウンロードも可能。
+
 <code>youtube "https://youtube.be/another_example_1" "https://youtube.be/another_example_2"</code>
 
 変換後、ダウンロードされたMP3は<code>Youtube-MP3</code>内の<code>music</code>フォルダに格納されます。
