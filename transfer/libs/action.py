@@ -1,4 +1,4 @@
-import sys
+import sys, json, os
 from yt_dlp import YoutubeDL
 from transfer.libs import define
 
@@ -25,7 +25,7 @@ def movie_to_music():
                     "preferredquality": "192" # 音質設定
                 }
             ],
-            "outtmpl": f"{define.MUSIC_FOLDER_PATH}" + "/" + "%(title)s.%(ext)s" # 保存先
+            "outtmpl": "SOUND_FOLDER_PATH" + "/" + "%(title)s.%(ext)s" # 保存先
         }
 
         with YoutubeDL(ydl_opts) as ydl:

@@ -2,8 +2,7 @@
 .venv*
 
 # build
-/exe/linux-ubuntu/build
-/exe/windows-64bit/build
+/exe/windows/build
 
 # pycache
 /transfer/**/__pycache__
