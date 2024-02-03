@@ -1,0 +1,9 @@
+# venv
+.venv*
+
+# build
+/exe/linux-ubuntu/build
+/exe/windows-64bit/build
+
+# pycache
+/transfer/**/__pycache__
